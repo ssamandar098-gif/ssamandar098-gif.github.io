@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Анкета сотрудника</title>
+  <link rel="stylesheet" href="coursovay.css">
+  <link rel="stylesheet" href="coursvay2.css">
+  <script defer src="coursovay.js"></script>
+</head>
+
+<body>
+  <ul>
+    <!-- ФИО -->
+    <li>
+      <label>ФИО</label>
+      <input class="FIO" placeholder="Введите ФИО" type="text">
+    </li>
+
+    <!-- Контакты -->
+    <li>
+      <label>Контакты</label>
+      <input class="CON" placeholder="Телефон" type="text">
+    </li>
+    <!-- Контакты -->
+    <li>
+      <label></label>
+      <input class="CON" placeholder="Email" type="text">
+    </li>
+
+    <!-- Фото -->   
+    <li>
+      <label>Вставьте Фото</label>
+      <input class="photo" type="file" accept="image/*">
+    </li>
+
+    <!-- Опыт работы -->
+    <li>
+      <div class="checkbox-group">
+        <input class="noJob" type="checkbox" id="noJob" checked>
+        <label for="noJob">Нет опыта работы</label>
+      </div>
+      <textarea class="yesJob" placeholder="Опишите ваш опыт работы..."></textarea>
+    </li>
+
+    <!-- Навыки -->
+    <li>
+      <h3>Навыки</h3>
+      <textarea class="yesAd" placeholder="Ваши профессиональные навыки..."></textarea>
+    </li>
+
+    <!-- Обо мне -->
+    <li>
+      <h3>Обо мне</h3>
+      <textarea class="aboutMe" placeholder="Расскажите о себе..."></textarea>
+    </li>
+
+    <!-- Выбор должности -->
+    <li>
+      <label>Профессия</label>
+      <select class="select">
+        <option value="Инженер">Инженер</option>
+        <option value="ПРОГРАММИСТ">Программист</option>
+        <option value="БУХГАЛТЕР">Бухгалтер</option>
+        <option value="Русский">Русский</option>
+      </select>
+    </li>
+
+    <!-- Кнопки -->
+    <li class="buttons">
+      <button class="role">Показать выбранную роль</button>
+      <button class="submit">Выполнить</button>
+    </li>
+  </ul>
+
+</body>
+
+</html>
