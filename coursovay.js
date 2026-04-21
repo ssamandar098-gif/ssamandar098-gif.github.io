@@ -10,7 +10,6 @@ let noJobCheckbox = document.querySelector(".noJob");
 let sbtn = document.querySelector(".submit");
 let roleBtn = document.querySelector(".role");
 let select = document.querySelector(".select");
-
 // Функция для роли Инженер
 function qwertyuo(fio, con) {
   return `
